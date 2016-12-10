@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_floating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.dariusch.flower_monitoring.Floating">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/plant_name"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/plant_name" />
+
+    <Button
+        android:text="Save"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_name"
+        android:layout_alignRight="@+id/plant_name"
+        android:id="@+id/button" />
+</RelativeLayout>
+
+</LinearLayout>

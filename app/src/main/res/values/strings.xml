@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Flower_Monitoring</string>
+    <string name="plant_name">Name of the Plant</string>
+</resources>
